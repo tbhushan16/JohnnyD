@@ -1,0 +1,89 @@
+.bio{
+    display: flex;
+}
+.bio-left{
+    margin: 27px;
+}
+
+.bio-left div{
+    /* width: 78%; */
+    margin: 13px;
+}
+.bio-left div a{
+color: white;
+}
+
+.bio-left div a:hover{
+color: gray;
+}
+.bio-right{
+    margin-top: 28px;
+}
+.infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    /* margin: 0.5em 0 0.5em 1em; */
+    margin-right: 12px;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    padding-bottom: 20px;
+}
+.infobox .infobox-above, .infobox .infobox-title, .infobox caption {
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+.infobox .infobox-header, .infobox .infobox-subheader, .infobox .infobox-image, .infobox .infobox-full-data, .infobox .infobox-below {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
+.infobox-label, .infobox-data, .infobox th, .infobox td {
+    text-align: left;
+}
+.hlist dd, .hlist dt, .hlist li {
+    margin: 0;
+    display: inline;
+}
+.hlist dd:after, .hlist li:after {
+    content: " · ";
+    font-weight: bold;
+}
+.vector-body p {
+    margin: 0.5em 0;
+}
+@media only screen and (max-width: 877px) {
+    .bio {
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .bio-right {
+        /* margin-top: 28px; */
+        margin: auto;
+        padding-bottom: 34px;
+    }
+    .infobox {
+        width: 70vw;
+    }
+
+}

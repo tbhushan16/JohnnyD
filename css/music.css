@@ -1,0 +1,55 @@
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      flex-direction: column;
+}
+
+.music-content{
+    margin: 23px;
+}
+
+.music-content iframe{
+    width: 90vw;
+    height: 100vh;
+
+}
+.music-bottom{
+    /* display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column; */
+    width: 88%;
+    margin: auto;
+}
+
+.music-bottom iframe{
+    margin: 23px;
+    width: 40vw;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* .music-content iframe{
+        width: 50%;
+        height: 30%;
+    } */
+
+    .music-content iframe{
+        height: 50vh;
+    }
+    .music-bottom iframe{
+        width: 90%;
+        /* height: 104%; */
+        display: fel;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        height: 30vh;
+}
+}
+
+

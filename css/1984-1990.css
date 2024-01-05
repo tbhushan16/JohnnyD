@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 80%;
+  margin: auto;
+  margin-top: 23px;
+}
+.info {
+  margin: 40px;
+}
+
+.info p {
+  margin-top: 14px;
+}
+
+.info h3:hover {
+  color: gray;
+}
+.info h3 {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 980px) {
+  .content {
+    flex-direction: column;
+  }
+  .info {
+    margin: 5px;
+  }
+  .utube iframe {
+      width: 80vw;
+      height: 30vh;
+  }
+}
